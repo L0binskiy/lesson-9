@@ -1,0 +1,15 @@
+.header {
+	background: url(../images/header-bg.jpg) no-repeat;
+	background-size: cover;
+	background-color: #2d6e70;
+	min-height: 660px;
+	position: relative;
+	&__top {
+		padding: 25px 0;
+		@include clearfix();
+		margin-bottom: 160px;
+	}
+	&__content {
+		color: $white;
+	}
+}

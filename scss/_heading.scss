@@ -1,0 +1,25 @@
+.heading{
+	margin-bottom: 60px;
+	&__title{
+		&::after{
+			content: '';
+			display: block;
+			border-bottom: 1px solid $success;
+			width: 65px;
+			margin: 0 auto;
+			padding-top: 20px;
+			margin-bottom: 15px;
+		}
+	}
+	&__text{
+		font-size: 15px;
+	}
+	&__img{
+		margin-bottom: 5px;
+	}
+
+}
+
+.heading__title--success{
+	color: $success;
+}

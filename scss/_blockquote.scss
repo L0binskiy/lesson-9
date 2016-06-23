@@ -1,0 +1,17 @@
+.blockquote{
+	&__text{
+		font-family: Merriweather;
+		font-size: 22px;
+		font-weight: 300;
+		line-height: 40px;
+		margin-bottom: 25px;
+	}
+	&__cite{
+		color: #6fb048;
+		font-weight: 500;
+		margin-bottom: -5px;
+	}
+	&__post{
+
+	}
+}

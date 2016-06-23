@@ -1,0 +1,12 @@
+.plan{
+	margin-bottom: 50px;
+	&__list{
+		list-style: none;
+	}	
+	&__item{
+		background: url(../images/icons/check.svg) no-repeat;
+		padding-left: 35px;
+		margin-bottom: 10px;
+		line-height: 25px;
+	}
+}

@@ -1,0 +1,56 @@
+@import 'social';
+
+.form{
+	&__group{
+		position: relative;
+	}
+	&__control{
+		padding-right: 35px;
+	}
+}
+
+.footer{
+	padding-top: 90px;
+	&__header{
+		border-bottom: 1px solid #eef1ec;	
+		padding-bottom: 50px;
+		margin-bottom: 20px;
+		@include clearfix;
+	}
+	&__list{
+
+	}
+	&__item{
+		line-height: 28px;
+	}
+	&__link{
+		color: $primary;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+	&__logo{
+		margin-bottom: 20px;
+	}
+	&__title{
+		margin-bottom: 20px;
+	}
+	&__text{
+		margin-bottom: 15px;
+	}
+	&__strong{
+		font-weight: 500;
+		color: $secondary;
+	}
+	&__icon{
+		position: absolute;
+		right: 15px;
+		top: 25%;
+	}
+	&__bottom{
+		margin-bottom: 20px;
+	}
+	&__copyright{
+		float: left;
+	}
+}

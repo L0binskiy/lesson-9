@@ -1,0 +1,37 @@
+.price{
+	margin-bottom: 70px;
+	&__card{
+		display: inline-block;
+		border: 1px solid #c1d3d2;
+		border-radius: 3px 0 0 3px;
+		padding: 25px 55px;
+		& + &{
+			margin-left: -4px;
+		}
+	}
+	&__name{
+		color: $success;
+		font-size: 15px;
+		font-weight: 500;
+		text-transform: uppercase;
+		margin-bottom: 24px;
+	}
+	&__value{
+		color: $secondary;
+		font-family: Montserrat;
+		font-size: 65px;
+		line-height: 45px;
+	}
+	&__period{
+		margin-bottom: 20px;
+		color: $secondary;
+	}
+	&__list{
+		list-style: none;
+		padding: 0;
+		margin: 0 0 20px;
+	}
+	&__item{
+
+	}
+}

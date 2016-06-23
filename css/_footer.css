@@ -1,0 +1,58 @@
+.social__list {
+  list-style: none;
+}
+
+.social__item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social__link {
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.social__link:hover {
+  animation: roll 1s;
+  transform: rotate(1080deg);
+}
+
+.social__link--twitter {
+  background-color: #55acee;
+}
+
+.social__link--facebook {
+  background-color: #3b5998;
+}
+
+.social__link--insta {
+  background-color: #3f729b;
+}
+
+.social__link--dribbble {
+  background-color: #ea4c89;
+}
+
+.social__link--git {
+  background-color: #333;
+}
+
+.social__icon {
+  transform: translateY(3px);
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(1080deg);
+  }
+}
+
+.footer__strong {
+  font-weight: bold;
+}
